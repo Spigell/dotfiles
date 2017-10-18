@@ -11,4 +11,6 @@ PATH=$PATH:$HOME/.local/bin:$HOME/bin
 export PATH
 
 # Import keys
-eval $(/usr/bin/keychain --eval --agents ssh -Q --quiet ~/.ssh/keys/*.key)
+if [[ -d ~/.ssh/keys ]]; then
+  eval $(/usr/bin/keychain --eval --agents ssh -Q --quiet ~/.ssh/keys/*.key)
+fi
