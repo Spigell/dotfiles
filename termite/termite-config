@@ -6,7 +6,7 @@
  allow_bold = true
  dynamic_title = true
  urgent_on_bell = true
- font = Inconsolata 11
+ font = Terminus 13
  scrollback_lines = 10000
  search_wrap = true
  #icon_name = terminal
@@ -34,7 +34,9 @@
 
 [colors]
 foreground = #839496
-foreground_bold = #eee8d5
+#foreground = #FFFFFF
+#foreground = #dcdccc
+#foreground_bold = #eee8d5
 #foreground_dim = #888888
 background = #002b36
 cursor = #93a1a1
